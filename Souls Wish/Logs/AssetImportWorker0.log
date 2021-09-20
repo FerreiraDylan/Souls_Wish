@@ -1,0 +1,1094 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'fr' Physical Memory: 16185 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/death/RTS/Souls_Wish/Souls Wish
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63837
+Successfully changed project path to: C:/Users/death/RTS/Souls_Wish/Souls Wish
+C:/Users/death/RTS/Souls_Wish/Souls Wish
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/death/RTS/Souls_Wish/Souls Wish/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5766
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002219 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1885ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2652 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 2.661700 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.192500 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Shaders/Flame
+  artifactKey: Guid(22d2f8e4dc97b734b835ec7fb7e7e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Flame using Guid(22d2f8e4dc97b734b835ec7fb7e7e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ae91a79fd4dd55bffcf8116aa3e5e7') in 0.005394 seconds 
+  Import took 0.008499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Shaders/Flame/Flame.shadergraph
+  artifactKey: Guid(147ecbad39fdba849907d22e6fc130d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Flame/Flame.shadergraph using Guid(147ecbad39fdba849907d22e6fc130d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13847805b372dbbbc6c7377a0e6029df') in 0.021376 seconds 
+  Import took 0.024511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.622664 seconds.
+  path: Assets/Prefabs/circle_button.png
+  artifactKey: Guid(41b3c4ca170a0a546a523ca970aec54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/circle_button.png using Guid(41b3c4ca170a0a546a523ca970aec54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834e23a85d6699328520f6cfe5b0e8a2') in 0.035069 seconds 
+  Import took 0.039497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Player_Menu.prefab
+  artifactKey: Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player_Menu.prefab using Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ee4dc75dfb7f3cdb4d965fdb9eea89') in 0.083042 seconds 
+  Import took 0.086986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433234 seconds.
+  path: Assets/Materials/M_Blue.mat
+  artifactKey: Guid(20a26ca7ae399324cb9b4bbbf200849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Blue.mat using Guid(20a26ca7ae399324cb9b4bbbf200849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ea53332ae14eb34b99fa8498399af') in 0.101652 seconds 
+  Import took 0.105405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.262933 seconds.
+  path: Assets/Menu/circle_button.png
+  artifactKey: Guid(c5e64dc6810f0d646be2c88e3437ec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/circle_button.png using Guid(c5e64dc6810f0d646be2c88e3437ec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0194bd7e72e8bbe2a81f6538d3d21f85') in 0.007437 seconds 
+  Import took 0.011023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.851270 seconds.
+  path: Assets/Prefabs/Player_Menu.prefab
+  artifactKey: Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player_Menu.prefab using Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7385e0fe4abaa42620e04367d87ccb8a') in 0.019132 seconds 
+  Import took 0.024101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.244474 seconds.
+  path: Assets/Logo/Logo.png
+  artifactKey: Guid(1ee9bc3345b64a741bbe25721d99d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo/Logo.png using Guid(1ee9bc3345b64a741bbe25721d99d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b70c749e05ed6b1e4146817462b8da') in 0.023568 seconds 
+  Import took 0.027434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Logo/Logo_app.png
+  artifactKey: Guid(e6f400f83748316439814242212e4424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo/Logo_app.png using Guid(e6f400f83748316439814242212e4424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84540136e0e98d14df108487d8ea5a7e') in 0.015375 seconds 
+  Import took 0.019370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.636102 seconds.
+  path: Assets/Light/circle_button.png
+  artifactKey: Guid(a4f309863babeaf4fb15383b711f54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Light/circle_button.png using Guid(a4f309863babeaf4fb15383b711f54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca5e0937f7dd9a8b9a40328ea98ddcb') in 0.007664 seconds 
+  Import took 0.012015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.887217 seconds.
+  path: Assets/Font/OptimusPrinceps.ttf
+  artifactKey: Guid(28ef805f7de882d4e876696aad1050d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OptimusPrinceps.ttf using Guid(28ef805f7de882d4e876696aad1050d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9103bf939941ac5328cf5936c955d17a') in 0.018975 seconds 
+  Import took 0.022835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Font/OptimusPrincepsSemiBold.ttf
+  artifactKey: Guid(ece3f9b48f312894b8eaf4a980d7ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OptimusPrincepsSemiBold.ttf using Guid(ece3f9b48f312894b8eaf4a980d7ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ec8286828b508942612636e893ebf0') in 0.014556 seconds 
+  Import took 0.018462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.610878 seconds.
+  path: Assets/Audio/circle_button.png
+  artifactKey: Guid(f258e0f3cdc37cf46bb7b4d474c25ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/circle_button.png using Guid(f258e0f3cdc37cf46bb7b4d474c25ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a027ea694cc9832433d94fc42ca4f3c5') in 0.007592 seconds 
+  Import took 0.011554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.524660 seconds.
+  path: Assets/Animations/circle_button.png
+  artifactKey: Guid(0080ca68f2ce79e41b7989e7334e3399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/circle_button.png using Guid(0080ca68f2ce79e41b7989e7334e3399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46a896e1931227b942738df299b6068') in 0.008132 seconds 
+  Import took 0.012105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.856626 seconds.
+  path: Assets/3DModels/paladin.fbx
+  artifactKey: Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin.fbx using Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c78dbbddc103011abf62e6ea846a32') in 0.356286 seconds 
+  Import took 0.360820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom@Sprinting Forward Roll.fbx
+  artifactKey: Guid(4a0fb81ea1de19243ac58639d98fc7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom@Sprinting Forward Roll.fbx using Guid(4a0fb81ea1de19243ac58639d98fc7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888877a13a4507172bfd43f553efe4c') in 0.010429 seconds 
+  Import took 0.014981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom.fbx
+  artifactKey: Guid(6fa466930e7330942b6c5637be7c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom.fbx using Guid(6fa466930e7330942b6c5637be7c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3622acbe0d6554f39032741803be0c56') in 0.060769 seconds 
+  Import took 0.066210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom@Sword And Shield Run.fbx
+  artifactKey: Guid(52a359021c191f14c8f57c72724db574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom@Sword And Shield Run.fbx using Guid(52a359021c191f14c8f57c72724db574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6429eee4ef7fcf8a648a460aeddf1') in 0.008715 seconds 
+  Import took 0.012463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom@Idle.fbx
+  artifactKey: Guid(1126dfd9c390886479d1e46bc4115355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom@Idle.fbx using Guid(1126dfd9c390886479d1e46bc4115355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9af88f5d2877cadb9b797dc1e01f9ff') in 0.008033 seconds 
+  Import took 0.011728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom@Jump.fbx
+  artifactKey: Guid(47a0366ff35036942a8cec609dbd2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom@Jump.fbx using Guid(47a0366ff35036942a8cec609dbd2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5a3ae5ccba9d991723a8bd1911be4a') in 0.010467 seconds 
+  Import took 0.015883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.873511 seconds.
+  path: Assets/3DModels/paladin.fbx
+  artifactKey: Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin.fbx using Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c93f54326f8abf6c65bc6d68cc0dd') in 0.086088 seconds 
+  Import took 0.091176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3DModels/Paladin_normal.png
+  artifactKey: Guid(8c402bf16d6995d4e9e317a2c8e39c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Paladin_normal.png using Guid(8c402bf16d6995d4e9e317a2c8e39c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60fe25af317fc683c705c42195584aa') in 0.013012 seconds 
+  Import took 0.018894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3DModels/paladin_prop_j_nordstrom.fbx
+  artifactKey: Guid(6fa466930e7330942b6c5637be7c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin_prop_j_nordstrom.fbx using Guid(6fa466930e7330942b6c5637be7c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a063d3d3704aa89d5e55561fe2ac020') in 0.083251 seconds 
+  Import took 0.089111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3DModels/Paladin_diffuse.png
+  artifactKey: Guid(3ee154681eb98344882838111f703e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Paladin_diffuse.png using Guid(3ee154681eb98344882838111f703e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c45f0523a4b8efb7015d73374d7247a') in 0.014234 seconds 
+  Import took 0.018494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.193389 seconds.
+  path: Assets/3DModels/Paladin_normal.png
+  artifactKey: Guid(8c402bf16d6995d4e9e317a2c8e39c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Paladin_normal.png using Guid(8c402bf16d6995d4e9e317a2c8e39c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaf53fb1e5cef162d0e0c56df1b8ba4') in 0.016864 seconds 
+  Import took 0.022156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.881146 seconds.
+  path: Assets/3DModels/paladin.fbx
+  artifactKey: Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/paladin.fbx using Guid(e887b23ec1d63c048a41641bbbc87bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e52759be5c3fd84118086a4f3ed709') in 0.076596 seconds 
+  Import took 0.081959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/3DModels/Paladin_MAT.mat
+  artifactKey: Guid(1453423cbc5e9cc438aa9ec1f10e9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Paladin_MAT.mat using Guid(1453423cbc5e9cc438aa9ec1f10e9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1da01e40d3b32f882d40e7dbbc13859') in 0.018133 seconds 
+  Import took 0.024741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.525739 seconds.
+  path: Assets/Prefabs/Player_Menu.prefab
+  artifactKey: Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player_Menu.prefab using Guid(d59378d422b5707438e9489128ed9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0723adb6b0cab377b98f0b9b2063563') in 0.020740 seconds 
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.007669 seconds.
+  path: Assets/Scenes/Stage1.unity
+  artifactKey: Guid(3a62d54d44c4f3e469a986aa53e8dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage1.unity using Guid(3a62d54d44c4f3e469a986aa53e8dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174083c7f333401d5a50b0a8a3c542c8') in 0.007911 seconds 
+  Import took 0.012295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.626731 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(3339558536acd7047915832bf525a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(3339558536acd7047915832bf525a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95378c1916b5e5e60a6e1c51cb664301') in 0.003310 seconds 
+  Import took 0.007395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.625474 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(97bfe3ecf579f4d4a97428e52051eacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(97bfe3ecf579f4d4a97428e52051eacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316fc2bd1dce5d87fc7b9c87868a8028') in 0.004422 seconds 
+  Import took 0.009490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.129915 seconds.
+  path: Assets/Materials/M_Green.mat
+  artifactKey: Guid(30dd684c86c965a44a3b36770c99027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Green.mat using Guid(30dd684c86c965a44a3b36770c99027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26b525431f2696afeec1f9db059bf3') in 0.012780 seconds 
+  Import took 0.017550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.659374 seconds.
+  path: Assets/Materials/M_Green.mat
+  artifactKey: Guid(30dd684c86c965a44a3b36770c99027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Green.mat using Guid(30dd684c86c965a44a3b36770c99027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328dbdaf58472cd433a453f0d69e54bd') in 0.009439 seconds 
+  Import took 0.013647 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3146.
+Total: 2.208200 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.170400 ms MarkObjects: 1.766800 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.098407 seconds.
+  path: Assets/Scripts/PlayerManager.cs
+  artifactKey: Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerManager.cs using Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936274ad2127f5382f57dd1aa4fa5c63') in 0.015575 seconds 
+  Import took 0.019376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016961 seconds.
+  path: Assets/Scripts/PlayerManager.cs
+  artifactKey: Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerManager.cs using Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936274ad2127f5382f57dd1aa4fa5c63') in 0.002216 seconds 
+  Import took 0.005914 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Domain Reload Profiling:
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3149.
+Total: 2.173600 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.150500 ms MarkObjects: 1.719300 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.185977 seconds.
+  path: Assets/Scripts/PlayerManager.cs
+  artifactKey: Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerManager.cs using Guid(7047bf082a83b0041ae429e7df07445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c89cb2011439ec4d57fabf7074bbe6') in 0.004799 seconds 
+  Import took 0.008297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.925435 seconds.
+  path: Assets/Animations/Paladin_Controller.controller
+  artifactKey: Guid(f1dca771d02b7674abe67222d7c8138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Paladin_Controller.controller using Guid(f1dca771d02b7674abe67222d7c8138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbdab45f63c8c3e7496a9b4d666ca70') in 0.021176 seconds 
+  Import took 0.025348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3152.
+Total: 3.441700 ms (FindLiveObjects: 0.564500 ms CreateObjectMapping: 0.281200 ms MarkObjects: 2.576000 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 481.076518 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010398 seconds 
+  Import took 0.016379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.897337 seconds.
+  path: Assets/Assets_Store
+  artifactKey: Guid(0d70ae0739decfc4bac2b6099d1f7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store using Guid(0d70ae0739decfc4bac2b6099d1f7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d460cf700c8f7a96b512a410c887a3') in 0.002510 seconds 
+  Import took 0.006971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.965364 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix
+  artifactKey: Guid(3b3d4c2e94a406f4c840e2e874c84645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix using Guid(3b3d4c2e94a406f4c840e2e874c84645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09777d83f16629d09291b2a523a887d9') in 0.004928 seconds 
+  Import took 0.009132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.699952 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire
+  artifactKey: Guid(2c09008e3c853b44ba8da93602ab541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire using Guid(2c09008e3c853b44ba8da93602ab541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4c9f461612e7b9ed3e88144fae0927') in 0.004431 seconds 
+  Import took 0.010327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.733623 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex
+  artifactKey: Guid(006f805b3fcc0bc408f12d046d969000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex using Guid(006f805b3fcc0bc408f12d046d969000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbe46e0a6fd7c669b52fffbd64eb3c2') in 0.003741 seconds 
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.365166 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost
+  artifactKey: Guid(7f0d8a8cabe0c8340983309e1338dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost using Guid(7f0d8a8cabe0c8340983309e1338dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22f687885f7cb56f091b840a5f25b7a') in 0.004024 seconds 
+  Import took 0.009355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029675 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_BigFire.prefab
+  artifactKey: Guid(3fc60b7cf7878a24cbd429afff220aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_BigFire.prefab using Guid(3fc60b7cf7878a24cbd429afff220aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f36a5bf8bf0e904a926558e9f59e82') in 0.111230 seconds 
+  Import took 0.115851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_Horizontal.prefab
+  artifactKey: Guid(930214d9daabb5c48bae128de8048b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_Horizontal.prefab using Guid(930214d9daabb5c48bae128de8048b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f79b29cbd3c5b414277fb4f24a18c') in 0.019791 seconds 
+  Import took 0.024051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_Side.prefab
+  artifactKey: Guid(513579107a3592141b9b476c86374f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_Side.prefab using Guid(513579107a3592141b9b476c86374f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c99336b59c86a04beaa932b9fe07ea5') in 0.024885 seconds 
+  Import took 0.030094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireBall.prefab
+  artifactKey: Guid(81aacf9e1fe270f4e94ad815dc75c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireBall.prefab using Guid(81aacf9e1fe270f4e94ad815dc75c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe951221d1a2b1e838532b1733cad97') in 0.032184 seconds 
+  Import took 0.036732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_CampFire.prefab
+  artifactKey: Guid(3fc62519eabd9ad4e8677140decb272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_CampFire.prefab using Guid(3fc62519eabd9ad4e8677140decb272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a85e2e5d187e49510da692e889fd66a') in 0.026977 seconds 
+  Import took 0.033126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireWall.prefab
+  artifactKey: Guid(23a07003c4dc8c041b9cdfc6eac65d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireWall.prefab using Guid(23a07003c4dc8c041b9cdfc6eac65d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff8df1770085e70e92406be3cd60f44') in 0.026187 seconds 
+  Import took 0.031825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_CampFire.prefab
+  artifactKey: Guid(3fc62519eabd9ad4e8677140decb272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_CampFire.prefab using Guid(3fc62519eabd9ad4e8677140decb272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a85e2e5d187e49510da692e889fd66a') in 0.026146 seconds 
+  Import took 0.036891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireWall.prefab
+  artifactKey: Guid(23a07003c4dc8c041b9cdfc6eac65d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Frost/Fire_Complex_Frost_FireWall.prefab using Guid(23a07003c4dc8c041b9cdfc6eac65d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff8df1770085e70e92406be3cd60f44') in 0.019231 seconds 
+  Import took 0.026033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.298529 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_BigFire.prefab
+  artifactKey: Guid(32105760acda8164f9db04bf9e056cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_BigFire.prefab using Guid(32105760acda8164f9db04bf9e056cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf21350a5c5809abfa21c1a5f0f7f6f') in 0.017645 seconds 
+  Import took 0.022322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_Side.prefab
+  artifactKey: Guid(88425446d35d925469bd4b655e4ca59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_Side.prefab using Guid(88425446d35d925469bd4b655e4ca59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c20c26bb615a5ab127b8a6709e00184') in 0.017532 seconds 
+  Import took 0.022710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_FireBall.prefab
+  artifactKey: Guid(35d5da2d58ef73f499a18092dcab5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_FireBall.prefab using Guid(35d5da2d58ef73f499a18092dcab5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2188739e68b2dfa6d4b56da19830e1b0') in 0.025791 seconds 
+  Import took 0.032926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_CampFire.prefab
+  artifactKey: Guid(cb4ad8ff46d634c4b896310cbfe2b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_CampFire.prefab using Guid(cb4ad8ff46d634c4b896310cbfe2b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f732a712a318b662066df017851133') in 0.018710 seconds 
+  Import took 0.023720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_Horizontal.prefab
+  artifactKey: Guid(a00b62ccf6e25fc4fbaa6c5a6a7e5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_Horizontal.prefab using Guid(a00b62ccf6e25fc4fbaa6c5a6a7e5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a658028b5532dcb07031e6063c15d6') in 0.017609 seconds 
+  Import took 0.022634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_FireWall.prefab
+  artifactKey: Guid(dbd675039efc6df469868cd1e426e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Ghost/Fire_Complex_Ghost_FireWall.prefab using Guid(dbd675039efc6df469868cd1e426e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da5456f492be391a3b1efd69cc03d49') in 0.014424 seconds 
+  Import took 0.020450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.876644 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_BigFire.prefab
+  artifactKey: Guid(877d6caf5ce1b0a44a7b7b9d5af5be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_BigFire.prefab using Guid(877d6caf5ce1b0a44a7b7b9d5af5be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d59e9f87962f247dfb770ddf424f96c') in 0.018019 seconds 
+  Import took 0.022741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_Side.prefab
+  artifactKey: Guid(7e5916a8465c84c42800357dd1a8778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_Side.prefab using Guid(7e5916a8465c84c42800357dd1a8778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d88a430c1ab8d6f08960716c7226cfc') in 0.019709 seconds 
+  Import took 0.024021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_CampFire.prefab
+  artifactKey: Guid(f33f666410af8384194e09829cea1350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_CampFire.prefab using Guid(f33f666410af8384194e09829cea1350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0703fffcbf64837afd66e8d172634a5a') in 0.020838 seconds 
+  Import took 0.026082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireBall.prefab
+  artifactKey: Guid(37cc335dad21d2f4d86bb736c1d9ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireBall.prefab using Guid(37cc335dad21d2f4d86bb736c1d9ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0fe648632ac2fad3ac5f334a663374') in 0.022104 seconds 
+  Import took 0.026595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireWall.prefab
+  artifactKey: Guid(10bff9a5d0071564093bf6e340b7b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireWall.prefab using Guid(10bff9a5d0071564093bf6e340b7b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383214eb94844a8350083e1556f33842') in 0.016286 seconds 
+  Import took 0.021277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireBall.prefab
+  artifactKey: Guid(37cc335dad21d2f4d86bb736c1d9ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_FireBall.prefab using Guid(37cc335dad21d2f4d86bb736c1d9ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0fe648632ac2fad3ac5f334a663374') in 0.020684 seconds 
+  Import took 0.025879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_Horizontal.prefab
+  artifactKey: Guid(19900f5db7dee1f488255da89986e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Green/Fire_Complex_Green_Horizontal.prefab using Guid(19900f5db7dee1f488255da89986e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf4a3a24a31cc8b54b26255a2d6e571') in 0.020408 seconds 
+  Import took 0.024575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.427385 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_BigFire.prefab
+  artifactKey: Guid(208bebddfaef8be4f9e1ce9d72219267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_BigFire.prefab using Guid(208bebddfaef8be4f9e1ce9d72219267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5722e7a582639607ddf295d3bf53842') in 0.022638 seconds 
+  Import took 0.026968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_Side.prefab
+  artifactKey: Guid(44f616a871f5eab4da916ac4524cb122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_Side.prefab using Guid(44f616a871f5eab4da916ac4524cb122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deffa88340f2181d22538ba902dec9b2') in 0.017805 seconds 
+  Import took 0.021846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_FireBall.prefab
+  artifactKey: Guid(17b6f790d785c5c4c8d1bf40c6e651b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_FireBall.prefab using Guid(17b6f790d785c5c4c8d1bf40c6e651b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d5a125a9bbcff791d312454edff16c') in 0.019635 seconds 
+  Import took 0.025517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_Horizontal.prefab
+  artifactKey: Guid(967379f7d70084440a9e6dc74fd0f64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_Horizontal.prefab using Guid(967379f7d70084440a9e6dc74fd0f64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e96476910cf5c48f871df63dc663db5') in 0.016430 seconds 
+  Import took 0.021411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_CampFire.prefab
+  artifactKey: Guid(c95e1cec39e0b5a43b78818dc10fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_CampFire.prefab using Guid(c95e1cec39e0b5a43b78818dc10fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af21dcc40145fe888cddacecc9364e') in 0.026767 seconds 
+  Import took 0.031124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_FireWall.prefab
+  artifactKey: Guid(380342c4e3cecc3408147352af21ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Magic/Fire_Complex_Magic_FireWall.prefab using Guid(380342c4e3cecc3408147352af21ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921c5aa65314f4bf2b064c7de81c6efb') in 0.013652 seconds 
+  Import took 0.018373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.516947 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_BigFire.prefab
+  artifactKey: Guid(ffea4d7b0eb5edb40875a5ffff24dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_BigFire.prefab using Guid(ffea4d7b0eb5edb40875a5ffff24dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8241220ea071a714709fd3fcc992e7ea') in 0.026365 seconds 
+  Import took 0.030907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_CampFire.prefab
+  artifactKey: Guid(3db0cbb31bbccd84c8870eaa2df2ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_CampFire.prefab using Guid(3db0cbb31bbccd84c8870eaa2df2ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa937c3e76cf6e0e7dc8ee917a27cf4') in 0.021976 seconds 
+  Import took 0.027265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_Horizontal.prefab
+  artifactKey: Guid(6b69d01ad85dff94aa775857321af239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_Horizontal.prefab using Guid(6b69d01ad85dff94aa775857321af239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca254b59998f20c922ac98cf8acf2c4') in 0.017134 seconds 
+  Import took 0.021757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireBall.prefab
+  artifactKey: Guid(ac76e11459c14ad499a9c3e27c04b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireBall.prefab using Guid(ac76e11459c14ad499a9c3e27c04b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea1f5b2e2cb512546e638b8c507b69f') in 0.020056 seconds 
+  Import took 0.024733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireWall.prefab
+  artifactKey: Guid(9b6a889963f21d948971ecfc3116e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireWall.prefab using Guid(9b6a889963f21d948971ecfc3116e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c9821c86903897fe2cf85958eac54f') in 0.016526 seconds 
+  Import took 0.022170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireBall.prefab
+  artifactKey: Guid(ac76e11459c14ad499a9c3e27c04b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireBall.prefab using Guid(ac76e11459c14ad499a9c3e27c04b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea1f5b2e2cb512546e638b8c507b69f') in 0.018788 seconds 
+  Import took 0.023475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireWall.prefab
+  artifactKey: Guid(9b6a889963f21d948971ecfc3116e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_FireWall.prefab using Guid(9b6a889963f21d948971ecfc3116e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c9821c86903897fe2cf85958eac54f') in 0.015226 seconds 
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_Side.prefab
+  artifactKey: Guid(1f4c03668172a3440bc1315054541c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Orange/Fire_Complex_Orange_Side.prefab using Guid(1f4c03668172a3440bc1315054541c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e251b73676f11de17148fb5823604a1') in 0.016420 seconds 
+  Import took 0.022200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.915131 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_BigFire.prefab
+  artifactKey: Guid(691780d40a2abfd4088e024a27f4c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_BigFire.prefab using Guid(691780d40a2abfd4088e024a27f4c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1171035308705cc8e8ca2bada6be07ce') in 0.023655 seconds 
+  Import took 0.028506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_Side.prefab
+  artifactKey: Guid(3490d4d900bdd3444ad5bac14256cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_Side.prefab using Guid(3490d4d900bdd3444ad5bac14256cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f063af64a28cb02fe4c788856cd7608') in 0.017492 seconds 
+  Import took 0.021684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_FireBall.prefab
+  artifactKey: Guid(755a28f7003d71340bdc1a3d981ba634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_FireBall.prefab using Guid(755a28f7003d71340bdc1a3d981ba634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a495af581e667aa71d6477c86de7a9e') in 0.019573 seconds 
+  Import took 0.025171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_CampFire.prefab
+  artifactKey: Guid(0c1db9eb41cbda34db426770e787acdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_CampFire.prefab using Guid(0c1db9eb41cbda34db426770e787acdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a188b055cf35fc2108b13d44f52db66') in 0.017834 seconds 
+  Import took 0.023755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_Horizontal.prefab
+  artifactKey: Guid(f2780d4cd5c060844b4b83da5496bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_Horizontal.prefab using Guid(f2780d4cd5c060844b4b83da5496bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6345a6dde91869ffb48d1e8356c1f2cc') in 0.019732 seconds 
+  Import took 0.025448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_FireWall.prefab
+  artifactKey: Guid(0f2b67fe52e4ff1479a50de9e286bf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Royal/Fire_Complex_Royal_FireWall.prefab using Guid(0f2b67fe52e4ff1479a50de9e286bf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc60d1a4c25f4baf0526c9eae20333c') in 0.015748 seconds 
+  Import took 0.021585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.780187 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_BigFire.prefab
+  artifactKey: Guid(2055b8935901bfe4fa95ca748b00264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_BigFire.prefab using Guid(2055b8935901bfe4fa95ca748b00264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e980366becd8a191ac94ad482c883b4d') in 0.020311 seconds 
+  Import took 0.024684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_CampFire.prefab
+  artifactKey: Guid(ef2eefa254228ad48bc60f7db46a66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_CampFire.prefab using Guid(ef2eefa254228ad48bc60f7db46a66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cd796634b63e4d2cbd288e48cc2a41') in 0.016734 seconds 
+  Import took 0.021426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_Horizontal.prefab
+  artifactKey: Guid(e80052a72e61e794f999de0a9b1d1266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_Horizontal.prefab using Guid(e80052a72e61e794f999de0a9b1d1266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94b9012a1890a1bf7016765d2933bee') in 0.016844 seconds 
+  Import took 0.021052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_Side.prefab
+  artifactKey: Guid(4a7395d099558d8468763634f43a34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_Side.prefab using Guid(4a7395d099558d8468763634f43a34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3df771af15398c65890e05d5df03a84') in 0.014897 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_FireBall.prefab
+  artifactKey: Guid(034b30213ff887644b6cb639bf8a096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_FireBall.prefab using Guid(034b30213ff887644b6cb639bf8a096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8c1200bbf545b2a7a4440ad8e8ef06') in 0.014652 seconds 
+  Import took 0.018639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_FireWall.prefab
+  artifactKey: Guid(0d16a8ac83f07b449826bd311b16ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Store/Flames Of The Phoenix/Fire/Complex/Soul/Fire_Complex_Soul_FireWall.prefab using Guid(0d16a8ac83f07b449826bd311b16ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84177f8f04bf2bb1977647a175305744') in 0.013997 seconds 
+  Import took 0.018687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.370062 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8050acb3de74827e44ca58a633b9fa7') in 0.004373 seconds 
+  Import took 0.009540 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (845ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 3.018200 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.147400 ms MarkObjects: 2.475800 ms  DeleteObjects: 0.018000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
