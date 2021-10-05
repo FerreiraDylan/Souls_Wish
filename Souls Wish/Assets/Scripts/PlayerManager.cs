@@ -28,15 +28,19 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Player Setup")]
     public CharacterController controller;
+    public GameObject ActualCampFire;
     /*
         public Transform objectif_position;
         public GameObject target;
-        public GameObject bullet;
         public GameObject directionnalStick;
-        public GameObject shootStick;
     */
 
-    [Header("Gravity & Jump")]
+    [Header("Player UI")]
+    public Slider UI_Health;
+    public Slider UI_Shield;
+    public GameObject UI_Interaction;
+
+    [Header("Gravity Jump")]
     Vector3 velocity;
     public float gravity = -9.81f;
 
@@ -54,6 +58,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private float ShieldDuration = 2f;
     [SerializeField] private bool isGrounded;
     private float _speed = 0.0f;
+    public bool _insideCampFire;
 
     public static PlayerManager instance;
 
@@ -65,10 +70,18 @@ public class PlayerManager : MonoBehaviour
         }
         instance = this;
     }
+
     // Start is called before the first frame update
     void Start()
     {
+        StarterPack_Payer();
+    }
 
+    public void StarterPack_Payer()
+    {
+        UI_Health.maxValue = MaxHealth;
+        CurrentHealth = MaxHealth;
+        UI_Health.value = CurrentHealth;
     }
 
     // Update is called once per frame
@@ -76,6 +89,7 @@ public class PlayerManager : MonoBehaviour
     {
         Player_Movement();
         Player_Animation();
+        Player_UI();
         //CheckPlatform();
     }
 
@@ -88,11 +102,8 @@ public class PlayerManager : MonoBehaviour
             velocity.y = -2f;
         }
 
-        float x;
-        float z;
-
-        x = Input.GetAxis("Horizontal");
-        z = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(x, 0f, z).normalized;
 
         if (direction.magnitude >= 0.1f)
@@ -105,18 +116,18 @@ public class PlayerManager : MonoBehaviour
             controller.Move(moveDir.normalized * Speed * Time.deltaTime);
         }
 
-        //Vector3 move = transform.right * x + transform.forward * z;
         if ((x != 0 || z != 0) || (x != 0 && z != 0))
             _speed = 1;
         else
             _speed = 0;
-        
-        //controller.Move(move * Speed * Time.deltaTime);
-        //CameraFollow.instance.getPosition_threeD(gameObject.transform.position);
 
         //GRAVITY
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
+    public void Player_UI()
+    {
+        UI_Health.value = CurrentHealth;
     }
 
     public IEnumerator Jump_Duration()
@@ -132,7 +143,6 @@ public class PlayerManager : MonoBehaviour
     }
     public void Player_Animation()
     {
-
         HorizontalMove = Input.GetAxisRaw("Horizontal") * Speed * Time.deltaTime;
 
         animator.SetFloat("Speed", _speed);
@@ -150,6 +160,29 @@ public class PlayerManager : MonoBehaviour
             animator.SetBool("Roll", true);
             StartCoroutine(Roll_Duration());
         }
-        
+
+        if (Input.GetButtonDown("Attack"))
+        {
+            animator.SetBool("Attack", true);
+        }
+
+        if (Input.GetButtonDown("Shield"))
+        {
+            animator.SetBool("ShieldBlock", true);
+        }
+
+    }
+
+
+    public void TakeDamage(float damage)
+    {
+        CurrentHealth -= damage;
+
+        //StartCoroutine(CameraFollow.instance.CameraShaking.Shake(.15f, .4f));
+    }
+
+    public void TakeSlow(bool slow)
+    {
+        Speed = (slow ? 3 : 6);
     }
 }

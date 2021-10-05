@@ -59,11 +59,15 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\UI\Elements\Circular Menu\Scripts\MenuItemScript.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\UI\Elements\Circular Menu\Scripts\Show_CircularMenu.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Scripts\Launch_Game.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\Script\ScrollUVWater.cs" />
@@ -72,6 +76,7 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Scripts\Env_Effects.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
@@ -88,11 +93,14 @@
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\Script\FreeCam.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\UI\Elements\Circular Menu\Scripts\CircularMenuSettings.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
@@ -103,10 +111,7 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\InputManager.cs" />
-    <Compile Include="Assets\Launch_Game.cs" />
+    <Compile Include="Assets\Scripts\CampFire_spawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
