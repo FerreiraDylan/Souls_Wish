@@ -9,6 +9,8 @@ public class InputManager : MonoBehaviour
     public AudioMixer audioMixer;
     public Dropdown resolutionDropdown;
 
+    public bool PlayerUI;
+
     Resolution[] resolutions;
 
     public static InputManager instance;
@@ -90,5 +92,11 @@ public class InputManager : MonoBehaviour
     {
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    }
+
+    // || PLAYER UI || //
+    public void SetPlayerUI(bool isDefault)
+    {
+        PlayerUI = isDefault;
     }
 }

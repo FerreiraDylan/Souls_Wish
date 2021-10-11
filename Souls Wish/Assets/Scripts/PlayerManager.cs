@@ -8,15 +8,13 @@ public class PlayerManager : MonoBehaviour
     [Header("Player Animation")]
     public Animator animator;
     public Transform cam;
-    public float turnSmoothTime = 0.1f;
-    float turnSmoothVelocity;
-    float HorizontalMove = 0f;
+    public ParticleSystem Health_restored;
 
     [Header("Player Characteristics")]
     public float Speed = 6f;
     public float MaxHealth = 100f;
     public float CurrentHealth = 0f;
-    public float Heal = 5f;
+    public float Heal = 30f;
     public float Damage = 50f;
     public float Level = 0f;
     public float CurrentExp = 0f;
@@ -29,6 +27,9 @@ public class PlayerManager : MonoBehaviour
     [Header("Player Setup")]
     public CharacterController controller;
     public GameObject ActualCampFire;
+    public float turnSmoothTime = 0.1f;
+    float turnSmoothVelocity;
+    float HorizontalMove = 0f;
     /*
         public Transform objectif_position;
         public GameObject target;
@@ -36,8 +37,7 @@ public class PlayerManager : MonoBehaviour
     */
 
     [Header("Player UI")]
-    public Slider UI_Health;
-    public Slider UI_Shield;
+    public PlayerUIManager PlayerUI_Manager;
     public GameObject UI_Interaction;
 
     [Header("Gravity Jump")]
@@ -53,7 +53,7 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Private Values")]
     [SerializeField] private bool Shield_isActive;
-    [SerializeField] private float JumpDuration = 1f;
+    [SerializeField] private float JumpDuration = .8f;
     [SerializeField] private float RollDuration = 2f;
     [SerializeField] private float ShieldDuration = 2f;
     [SerializeField] private bool isGrounded;
@@ -79,9 +79,8 @@ public class PlayerManager : MonoBehaviour
 
     public void StarterPack_Payer()
     {
-        UI_Health.maxValue = MaxHealth;
+        PlayerUI_Manager.SetPlayerUI_Health(MaxHealth, CurrentHealth);
         CurrentHealth = MaxHealth;
-        UI_Health.value = CurrentHealth;
     }
 
     // Update is called once per frame
@@ -91,6 +90,7 @@ public class PlayerManager : MonoBehaviour
         Player_Animation();
         Player_UI();
         //CheckPlatform();
+        TakeHeal();
     }
 
     //PLAYER
@@ -127,7 +127,7 @@ public class PlayerManager : MonoBehaviour
     }
     public void Player_UI()
     {
-        UI_Health.value = CurrentHealth;
+        PlayerUI_Manager.UpdatePlayerUI_Health(CurrentHealth);
     }
 
     public IEnumerator Jump_Duration()
@@ -139,6 +139,9 @@ public class PlayerManager : MonoBehaviour
     public IEnumerator Roll_Duration()
     {
         yield return new WaitForSeconds(RollDuration);
+        controller.center = new Vector3(0, 1.1f, 0);
+        controller.radius = .5f;
+        controller.height = 2f;
         animator.SetBool("Roll", false);
     }
     public void Player_Animation()
@@ -158,6 +161,9 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetButtonDown("Roll"))
         {
             animator.SetBool("Roll", true);
+            controller.center = new Vector3(0, .5f, 0);
+            controller.radius = .35f;
+            controller.height = .6f;
             StartCoroutine(Roll_Duration());
         }
 
@@ -173,10 +179,19 @@ public class PlayerManager : MonoBehaviour
 
     }
 
+    public void TakeHeal()
+    {
+        if (Input.GetButtonDown("Use Item"))
+        {
+            CurrentHealth += Heal;
+            Health_restored.gameObject.SetActive(true);
+            Health_restored.Play();
+        }
+    }
 
     public void TakeDamage(float damage)
     {
-        CurrentHealth -= damage;
+        CurrentHealth -= damage * Time.deltaTime;
 
         //StartCoroutine(CameraFollow.instance.CameraShaking.Shake(.15f, .4f));
     }

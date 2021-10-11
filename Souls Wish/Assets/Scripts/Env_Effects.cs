@@ -32,7 +32,7 @@ public class Env_Effects : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             if (damage)
-                PlayerManager.instance.TakeDamage(2);
+                PlayerManager.instance.TakeDamage(15);
         }
     }
 

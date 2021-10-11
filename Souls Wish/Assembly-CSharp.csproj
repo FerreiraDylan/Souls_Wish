@@ -68,6 +68,7 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Scripts\Launch_Game.cs" />
+    <Compile Include="Assets\Scripts\CampFire_spawn.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\Script\ScrollUVWater.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Scripts\PlayerUIManager.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\PostProcessingModel.cs" />
@@ -108,10 +110,11 @@
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\Level_Bonus.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\CampFire_spawn.cs" />
+    <Compile Include="Assets\PlayerAudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
@@ -138,6 +141,7 @@
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Assets_Store\StoneKeep\Readme.txt" />
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\Assets_Store\DreamForestTree\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
@@ -811,6 +815,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{07EC0E18-0B06-76FB-4568-CC65ABB06516}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
