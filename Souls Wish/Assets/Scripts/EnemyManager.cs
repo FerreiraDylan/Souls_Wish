@@ -27,7 +27,7 @@ public class EnemyManager : MonoBehaviour
     public float Damage = 50f;
     public float Level = 0f;
     public float GiveExp = 5f;
-    public float GiveMoney = 0f;
+    public int GiveMoney = 0;
     public GameObject Player;
 
     [Header("Gravity & Jump")]

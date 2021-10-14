@@ -6,27 +6,30 @@ using UnityEngine.UI;
 public class PlayerManager : MonoBehaviour
 {
     [Header("Player Animation")]
-    public Animator animator;
+    public PlayerAnimManger PlayerAnim_Manager;
     public Transform cam;
     public ParticleSystem Health_restored;
 
     [Header("Player Characteristics")]
     public float Speed = 6f;
+    public float CurrentSpeed = 6f;
     public float MaxHealth = 100f;
     public float CurrentHealth = 0f;
+    public float MaxShield = 90f;
+    public float CurrentShield = 0f;
+    public int HealPotions = 3;
     public float Heal = 30f;
-    public float Damage = 50f;
+    public float Damage = 35f;
     public float Level = 0f;
     public float CurrentExp = 0f;
     public float MaxExp = 5f;
-    public float CurrentMoney = 0f;
+    public int CurrentMoney = 0;
     public float MoneyMultiplier = 1f;
-    private bool _shooting = false;
-    private float _shootFrequency = 0.35f;
 
     [Header("Player Setup")]
     public CharacterController controller;
     public GameObject ActualCampFire;
+    public PlayerAudioManager PlayerAudio_Manager;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
     float HorizontalMove = 0f;
@@ -41,7 +44,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject UI_Interaction;
 
     [Header("Gravity Jump")]
-    Vector3 velocity;
+    public Vector3 velocity;
     public float gravity = -9.81f;
 
     public Transform groundCheck;
@@ -52,13 +55,13 @@ public class PlayerManager : MonoBehaviour
     public float jumpHeight = 3f;
 
     [Header("Private Values")]
-    [SerializeField] private bool Shield_isActive;
-    [SerializeField] private float JumpDuration = .8f;
-    [SerializeField] private float RollDuration = 2f;
-    [SerializeField] private float ShieldDuration = 2f;
+    [SerializeField] public bool Shield_isActive;
     [SerializeField] private bool isGrounded;
-    private float _speed = 0.0f;
-    public bool _insideCampFire;
+    public float _speed = 0.0f;
+
+    public float downTime, upTime, pressTime = 0;
+    public float countDown = 2.0f;
+    public bool ready = false;
 
     public static PlayerManager instance;
 
@@ -79,8 +82,12 @@ public class PlayerManager : MonoBehaviour
 
     public void StarterPack_Payer()
     {
-        PlayerUI_Manager.SetPlayerUI_Health(MaxHealth, CurrentHealth);
+        Speed = CurrentSpeed;
         CurrentHealth = MaxHealth;
+        PlayerUI_Manager.SetPlayerUI_Health(MaxHealth, CurrentHealth);
+        CurrentShield = MaxShield;
+        PlayerUI_Manager.SetPlayerUI_Shield(MaxShield, CurrentShield);
+        PlayerAnim_Manager.SetSpeedActive();
     }
 
     // Update is called once per frame
@@ -89,7 +96,6 @@ public class PlayerManager : MonoBehaviour
         Player_Movement();
         Player_Animation();
         Player_UI();
-        //CheckPlatform();
         TakeHeal();
     }
 
@@ -127,65 +133,95 @@ public class PlayerManager : MonoBehaviour
     }
     public void Player_UI()
     {
+        if (CurrentShield < MaxShield)
+            CurrentShield += 3 * Time.deltaTime;
         PlayerUI_Manager.UpdatePlayerUI_Health(CurrentHealth);
+        PlayerUI_Manager.UpdatePlayerUI_Shield(CurrentShield);
+        PlayerUI_Manager.UpdatePlayerUI_HealPotions(HealPotions);
+        PlayerUI_Manager.UpdatePlayerUI_Coins(CurrentMoney);
     }
 
-    public IEnumerator Jump_Duration()
-    {
-        yield return new WaitForSeconds(JumpDuration);
-        animator.SetBool("Jump", false);
-        jump = false;
-    }
-    public IEnumerator Roll_Duration()
-    {
-        yield return new WaitForSeconds(RollDuration);
-        controller.center = new Vector3(0, 1.1f, 0);
-        controller.radius = .5f;
-        controller.height = 2f;
-        animator.SetBool("Roll", false);
-    }
     public void Player_Animation()
     {
-        HorizontalMove = Input.GetAxisRaw("Horizontal") * Speed * Time.deltaTime;
-
-        animator.SetFloat("Speed", _speed);
-        
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (CurrentHealth > 0)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            animator.SetBool("Jump", true);
-            jump = true;
-            StartCoroutine(Jump_Duration());
-        }
-        
-        if (Input.GetButtonDown("Roll"))
-        {
-            animator.SetBool("Roll", true);
-            controller.center = new Vector3(0, .5f, 0);
-            controller.radius = .35f;
-            controller.height = .6f;
-            StartCoroutine(Roll_Duration());
-        }
+            HorizontalMove = Input.GetAxisRaw("Horizontal") * Speed * Time.deltaTime;
 
-        if (Input.GetButtonDown("Attack"))
-        {
-            animator.SetBool("Attack", true);
-        }
+            PlayerAnim_Manager.Anim_Speed();
 
-        if (Input.GetButtonDown("Shield"))
-        {
-            animator.SetBool("ShieldBlock", true);
-        }
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                PlayerAudio_Manager.Audio_JumpRoll();
+                PlayerAnim_Manager.Anim_Jump();
+            }
 
+            if (Input.GetButtonDown("Roll"))
+            {
+                PlayerAudio_Manager.Audio_JumpRoll();
+                PlayerAnim_Manager.Anim_Roll();
+            }
+
+            if (Input.GetButtonDown("Attack"))
+            {
+                PlayerAudio_Manager.Audio_Attack();
+                PlayerAnim_Manager.Anim_Attack();
+            }
+
+            if (CurrentShield > 30)
+            {
+                if (Input.GetButtonDown("Shield") && ready == false)
+                {
+                    downTime = Time.time;
+                    pressTime = downTime + countDown;
+                    ready = true;
+                    Shield_isActive = true;
+                    CurrentShield -= 30;
+                    PlayerAudio_Manager.Audio_Shield();
+                    PlayerAnim_Manager.Anim_Shield();
+                }
+                if (Input.GetButtonUp("Shield"))
+                {
+                    ready = false;
+                    Shield_isActive = false;
+                }
+                if (Time.time >= pressTime && ready == true)
+                {
+                    ready = false;
+                    Shield_isActive = false;
+                }
+            }
+        }
+    }
+
+    public void Player_Death()
+    {
+        PlayerAudio_Manager.Audio_Death();
+        PlayerAnim_Manager.Anim_Death();
+    }
+    public IEnumerator Death_Duration()
+    {
+        yield return new WaitForSeconds(5f);
     }
 
     public void TakeHeal()
     {
-        if (Input.GetButtonDown("Use Item"))
+        if (Input.GetButtonDown("Use Item") && HealPotions > 0)
         {
-            CurrentHealth += Heal;
-            Health_restored.gameObject.SetActive(true);
-            Health_restored.Play();
+            if (CurrentHealth == MaxHealth)
+                return;
+            if ((CurrentHealth + Heal) > MaxHealth)
+            {
+                CurrentHealth = MaxHealth;
+                Health_restored.gameObject.SetActive(true);
+                Health_restored.Play();
+                HealPotions -= 1;
+            } else
+            {
+                CurrentHealth += Heal;
+                Health_restored.gameObject.SetActive(true);
+                Health_restored.Play();
+                HealPotions -= 1;
+            }
         }
     }
 
@@ -198,6 +234,6 @@ public class PlayerManager : MonoBehaviour
 
     public void TakeSlow(bool slow)
     {
-        Speed = (slow ? 3 : 6);
+        Speed = (slow ? CurrentSpeed/2 : CurrentSpeed);
     }
 }
