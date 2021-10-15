@@ -7382,7 +7382,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Village Level'
+  m_Text: '- Village Level (House, Terrains, Texture, Tower, Ambiance)
+
+    - Castle
+    Level (Light, Terrains, Texture, Ambiance)'
 --- !u!222 &177840960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7623,7 +7626,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9064e8a912f160448a745228b7b97fea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8130,7 +8133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 54edfbc5f3ee15344b6b8e4020fcf9a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8262,7 +8265,18 @@ MonoBehaviour:
   Player_Prefab: {fileID: 0}
   Cam: {fileID: 0}
   Pause_UI: {fileID: 0}
+  Defeate_UI: {fileID: 0}
+  Victory_UI: {fileID: 0}
+  Heal: 30
+  Speed: 6
+  Damage: 35
+  B_Heal: 0
+  B_Speed: 0
+  B_Damage: 0
+  bonus_allowed: 0
+  selected_bonus: 0
   InMenu: 1
+  scene: 
 --- !u!4 &238671915
 Transform:
   m_ObjectHideFlags: 0
@@ -10580,16 +10594,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- ASTROFISH_GAMES
+  m_Text: '- ADG_Textures
+
+    - ASTROFISH_GAMES
 
     - DreamForestTree
 
-    - Flames Of The Phoenix
+    - FantasyCastleDemo
 
     -
-    SkyBox
+    Flames Of The Phoenix
 
-    - StoneKeep'
+    - SkyBox
+
+    - StoneKeep
+
+    -Town Creator Kit LITE'
 --- !u!222 &535614892
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11536,13 +11556,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Enemy Characterictics (HP, Damage, Speed, ...)
+  m_Text: '- Enemy Characterictics (HP, Damage, Speed, Money, Exp)
 
-    - Enemy Controls
-    (Attack, Move, Shield, ...)
+    - Enemy UI
+    (Slide Bar HP)
 
-    - Enemy Animations (Death, Idle, Move, Attack,
-    ...)'
+    - Enemy Controls (Attack, Move)
+
+    - Enemy Animations (Death,
+    Idle, Move, Attack, ...)
+
+    - Enemy Audio (Walk, Attack, Death)
+
+    - Enemy
+    Design (Asset 3D, Texture)
+
+'
 --- !u!222 &694164387
 CanvasRenderer:
   m_ObjectHideFlags: 0

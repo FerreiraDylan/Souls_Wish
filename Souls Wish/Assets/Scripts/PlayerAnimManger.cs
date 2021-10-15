@@ -63,6 +63,7 @@ public class PlayerAnimManger : MonoBehaviour
     {
         animator.SetBool("Attack", true);
         StartCoroutine(AttackAnim_Duration());
+        PlayerManager.instance.Attack_isActive = true;
     }
 
     public void Anim_Shield()
@@ -99,6 +100,7 @@ public class PlayerAnimManger : MonoBehaviour
     {
         yield return new WaitForSeconds(AttackAnimDuration);
         animator.SetBool("Attack", false);
+        PlayerManager.instance.Attack_isActive = false;
     }
     public IEnumerator ShieldAnim_Duration()
     {

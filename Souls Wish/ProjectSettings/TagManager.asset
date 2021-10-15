@@ -9,6 +9,8 @@ TagManager:
   - Flame
   - Shaft
   - Damage Zone
+  - Interact
+  - Epee
   layers:
   - Default
   - TransparentFX

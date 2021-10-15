@@ -56,6 +56,7 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Private Values")]
     [SerializeField] public bool Shield_isActive;
+    [SerializeField] public bool Attack_isActive;
     [SerializeField] private bool isGrounded;
     public float _speed = 0.0f;
 

@@ -53,7 +53,10 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            Screen.SetResolution(1920, 1080, Screen.fullScreen);
+        }
     }
 
     // || AUDIO || //
