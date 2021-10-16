@@ -755,11 +755,11 @@ MonoBehaviour:
   UI_Health_Enemy: {fileID: 4899496316329599818}
   UI_Canvas: {fileID: 4899496316329599819}
   Speed: 6
-  MaxHealth: 0
-  CurrentHealth: 0
-  Damage: 50
+  MaxHealth: 50
+  CurrentHealth: 50
+  Damage: 20
   GiveExp: 5
-  GiveMoney: 0
+  GiveMoney: 10
   gravity: -9.81
   _speed: 0
 --- !u!114 &362221335

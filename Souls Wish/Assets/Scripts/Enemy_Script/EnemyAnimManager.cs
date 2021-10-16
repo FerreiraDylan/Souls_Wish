@@ -21,7 +21,7 @@ public class EnemyAnimManager : MonoBehaviour
 
     public void Anim_Enemy_Speed()
     {
-        animator.SetFloat("Speed", EnemyManager.instance._speed);
+        animator.SetFloat("Speed", 6f);
     }
 
     public void EnemyDeath()

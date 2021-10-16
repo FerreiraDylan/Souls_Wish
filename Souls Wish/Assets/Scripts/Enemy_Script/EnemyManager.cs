@@ -60,8 +60,6 @@ public class EnemyManager : MonoBehaviour
     public void Enemy_Movement()
     {
         EnemyAnim_Manager.EnemyWalk();
-        Debug.Log("Enemy = " + transform.position);
-        Debug.Log("Player = " + PlayerManager.instance.gameObject.transform.position);
         enemyMesh.SetDestination(PlayerManager.instance.gameObject.transform.position);
         
     }

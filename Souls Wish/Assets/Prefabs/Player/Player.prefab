@@ -2524,7 +2524,7 @@ GameObject:
   - component: {fileID: 7704926440543712359}
   - component: {fileID: 8519920038115916264}
   m_Layer: 0
-  m_Name: Paladin_J_Nordstrom_Sword
+  m_Name: Epee
   m_TagString: Epee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13792,6 +13792,7 @@ MonoBehaviour:
   jump: 0
   jumpHeight: 1.5
   Shield_isActive: 0
+  Attack_isActive: 0
   isGrounded: 0
   _speed: 0
   downTime: 0
