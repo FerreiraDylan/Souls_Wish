@@ -18,8 +18,8 @@ Audio:
 Ambient/ Effects/ Music
 
 UI:
-- Health / Dhield bar
-- Player Items (healing potion)
+- Health / Shield bar
+- Player Items (Healing Potion)
 - Coins
 - Pause/ Options/ Menu
 Options:
